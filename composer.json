@@ -1,0 +1,30 @@
+{
+  "name": "baiyutang/dingtalk-robot",
+  "description": "采用面向对象开发方法设计的钉钉群自定义机器人sdk",
+  "homepage": "https://github.com/baiyutang/dingtalk-robot",
+   "keywords": [
+    "php",
+    "ding talk",
+    "dingtalk",
+    "dingtalk-notice",
+    "dingtalk-robot"
+  ],
+  "authors": [
+    {
+      "name": "baiyutang"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DingTalkRobot\\": "src/"
+    }
+  },
+  "type": "library",
+  "version": "1.0.0-alpha",
+  "license": "MIT"
+}
