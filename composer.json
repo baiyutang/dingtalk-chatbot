@@ -1,6 +1,6 @@
 {
   "name": "baiyutang/dingtalk-robot",
-  "description": "采用面向对象开发方法设计的钉钉群自定义机器人sdk",
+  "description": "钉钉群自定义机器人: 采用面向对象的开发方法",
   "homepage": "https://github.com/baiyutang/dingtalk-robot",
    "keywords": [
     "php",
@@ -25,6 +25,5 @@
     }
   },
   "type": "library",
-  "version": "1.0.0-alpha",
   "license": "MIT"
 }
