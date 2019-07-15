@@ -16,6 +16,7 @@
 > 1. `git clone git@github.com:baiyutang/dingtalk-robot.git` 或 `composer require baiyutang/dingtalk-robot`
 > 2. `src/config.php` 文件中 `$groups` 数组中，修改钉钉群机器人为推送的目标群 token
 > 3. 参照示例组装代码
+
 ## 示例
 ```php
 // text 类型
