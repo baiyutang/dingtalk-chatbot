@@ -2,6 +2,10 @@
 
 namespace DingTalkRobot\Messages;
 
+/**
+ * Class ActionCardMessage
+ * @package DingTalkRobot\Messages
+ */
 class ActionCardMessage extends BaseMessage
 {
     /**
@@ -72,6 +76,9 @@ class ActionCardMessage extends BaseMessage
         return $this;
     }
 
+    /**
+     * @return void
+     */
     protected function validate()
     {
     }
