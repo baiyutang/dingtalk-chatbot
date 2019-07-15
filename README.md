@@ -13,7 +13,10 @@
 - [ ] 支持自定义的告警消息模板
 
 ## 用法
-
+> 1. `git clone git@github.com:baiyutang/dingtalk-robot.git` 或 `composer require baiyutang/dingtalk-robot`
+> 2. `src/config.php` 文件中 `$groups` 数组中，修改钉钉群机器人为推送的目标群 token
+> 3. 参照示例组装代码
+## 示例
 ```php
 // text 类型
 use DingTalkRobot\At;
@@ -53,8 +56,6 @@ $client = new RobotClient();
 
 $client->send($markdown, new DingTalkGroup());
 ```
-> 建议：引入该sdk可以在项目中再封装一次
-
 ## 相关
 * [钉钉开发文档：自定义机器人](https://open-doc.dingtalk.com/microapp/serverapi2/qf2nxq#-9)
 
