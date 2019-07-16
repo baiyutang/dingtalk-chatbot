@@ -3,6 +3,7 @@
 namespace DingTalkRobot\Messages;
 
 /**
+ * 整体跳转
  * Class ActionCardMessage
  * @package DingTalkRobot\Messages
  */
@@ -33,6 +34,7 @@ class ActionCardMessage extends BaseMessage
     }
 
     /**
+     * 必填
      * @param string $singleTitle
      * @return $this
      */
@@ -44,7 +46,8 @@ class ActionCardMessage extends BaseMessage
     }
 
     /**
-     * @param string $singleURL
+     * 必填
+     * @param string $singleURL 点击singleTitle按钮触发的URL
      * @return $this
      */
     public function setSingleURL($singleURL)
@@ -55,32 +58,14 @@ class ActionCardMessage extends BaseMessage
     }
 
     /**
-     * @param string $hideAvatar
+     * @param string $hideAvatar 0-正常发消息者头像，1-隐藏发消息者头像
      * @return $this
      */
     public function setHideAvatar($hideAvatar)
     {
-        $this->msgBody['hideAvatar'] = $$hideAvatar;
+        $this->msgBody['hideAvatar'] = (int)$hideAvatar;
 
         return $this;
-    }
-
-    /**
-     * @param string $btnOrientation
-     * @return $this
-     */
-    public function setBtnOrientation($btnOrientation)
-    {
-        $this->msgBody['btnOrientation'] = $btnOrientation;
-
-        return $this;
-    }
-
-    /**
-     * @return void
-     */
-    protected function validate()
-    {
     }
 
     /**
@@ -89,5 +74,9 @@ class ActionCardMessage extends BaseMessage
     protected function setMsgType()
     {
         $this->msgType = 'actionCard';
+    }
+
+    protected function validate()
+    {
     }
 }
