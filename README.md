@@ -4,13 +4,11 @@
 采用面向对象的开发方法
 
 ## 功能列表
-
 - [x] 实现原始 text / markdown / link / action card 类型消息发送
 - [x] 消息设置可支持链式调用
 - [x] 单独设置 @ 的数据，亦可链式调用设置多个 @ 的手机号。注意：设置 @ 所有人时，@ 单独手机号会失效
 - [x] 发送群可指根据配置随意指定
 - [x] 机器人token均可配置
-- [ ] 支持自定义的告警消息模板
 
 ## 用法
 > 1. `git clone git@github.com:baiyutang/dingtalk-robot.git` 或 `composer require baiyutang/dingtalk-robot`
