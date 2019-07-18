@@ -31,7 +31,7 @@ abstract class BaseMessage
     /**
      * @return array
      */
-    public function packageData()
+    final public function packageData()
     {
         $this->validate();
         $data = array();
