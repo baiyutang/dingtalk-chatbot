@@ -19,9 +19,9 @@
 ```php
 // text 类型
 use DingTalkRobot\At;
-use DingTalkRobot\DingTalkGroup;
+use DingTalkRobot\GroupChat;
 use DingTalkRobot\Messages\TextMessage;
-use DingTalkRobot\RobotClient;
+use DingTalkRobot\ChatBot;
 
 // 链式调用设置 @ 多个手机号
 $at = new At();
@@ -33,16 +33,16 @@ $message = new TextMessage();
 $message->setContent('我就是我, 是不一样的烟火')
     ->setAt($at);
 
-$client = new RobotClient();
+$client = new ChatBot();
 // 可以指定群，若不设置则发送默认的群
-$client->send($message, new DingTalkGroup('other'));
+$client->send($message, new GroupChat('other'));
 ```
 ---
 ```php
 // markdown 类型
-use DingTalkRobot\DingTalkGroup;
+use DingTalkRobot\GroupChat;
 use DingTalkRobot\Messages\MarkdownMessage;
-use DingTalkRobot\RobotClient;
+use DingTalkRobot\ChatBot;
 
 $markdown = new MarkdownMessage();
 $markdown->setTitle('杭州天气')
@@ -51,9 +51,9 @@ $markdown->setTitle('杭州天气')
         "> ![screenshot](http://tinyurl.com/y4lbucte)\n" .
         "> 10点20分发布 [天气](http://www.thinkpage.cn/)");
 
-$client = new RobotClient();
+$client = new ChatBot();
 
-$client->send($markdown, new DingTalkGroup());
+$client->send($markdown, new GroupChat());
 ```
 ## 相关
 * [钉钉开发文档：自定义机器人](https://open-doc.dingtalk.com/microapp/serverapi2/qf2nxq#-9)
