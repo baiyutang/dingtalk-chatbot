@@ -5,14 +5,14 @@ namespace DingTalkRobot;
 use DingTalkRobot\Messages\BaseMessage;
 
 /**
- * Class RobotClient
+ * Class ChatBot
  * @package DingTalkRobot
  */
-class RobotClient
+class ChatBot
 {
     /**
      * @param BaseMessage $message
-     * @param DingTalkGroup $group
+     * @param GroupChat $group
      * @return bool|false|string
      */
     public function send($message, $group)
