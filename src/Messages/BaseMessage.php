@@ -37,7 +37,7 @@ abstract class BaseMessage
         $data = array();
         $data['msgtype'] = $this->msgType;
         $data[$this->msgType] = $this->msgBody;
-        $this->at && $data['at'] = $this->at;
+        !empty($this->at) && $data['at'] = $this->at;
 
         return $data;
     }
