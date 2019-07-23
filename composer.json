@@ -1,6 +1,6 @@
 {
   "name": "baiyutang/dingtalk-robot",
-  "description": "The sdk for dingtalk custom robot. developed by object-oriented method. 钉钉群自定义机器人: 采用面向对象的开发方法",
+  "description": "The sdk for dingtalk chat robot. developed by object-oriented method. 钉钉群自定义机器人: 采用面向对象的开发方法",
   "homepage": "https://github.com/baiyutang/dingtalk-robot",
    "keywords": [
     "ding talk",
