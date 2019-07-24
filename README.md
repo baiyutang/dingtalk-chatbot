@@ -1,5 +1,4 @@
 # 钉钉群自定义机器人
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/baiyutang/dingtalk/badges/quality-score.png?b=master&s=11172c454383990e38a320295a72cbd98f426cc6)](https://scrutinizer-ci.com/g/baiyutang/dingtalk/?branch=master)
 
 采用面向对象的开发方法
 
