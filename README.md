@@ -1,4 +1,4 @@
-# Dingtalk Chat Robot 钉钉群自定义机器人
+# DingtalkChatBot 钉钉群自定义机器人
 
 采用面向对象的开发方法
 
