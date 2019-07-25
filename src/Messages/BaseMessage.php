@@ -31,13 +31,13 @@ abstract class BaseMessage
     /**
      * @return array
      */
-    public function packageData()
+    final public function packageData()
     {
         $this->validate();
         $data = array();
         $data['msgtype'] = $this->msgType;
         $data[$this->msgType] = $this->msgBody;
-        $this->at && $data['at'] = $this->at;
+        !empty($this->at) && $data['at'] = $this->at;
 
         return $data;
     }
