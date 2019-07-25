@@ -3,10 +3,10 @@
 namespace DingTalkRobot;
 
 /**
- * Class DingTalkGroup
+ * Class GroupChat
  * @package DingTalkRobot
  */
-class DingTalkGroup
+class GroupChat
 {
     /**
      * @var string $token 要发送的钉钉群的token
@@ -14,7 +14,7 @@ class DingTalkGroup
     private $token;
 
     /**
-     * DingTalkGroup constructor.
+     * GroupChat constructor.
      * @param string $name 钉钉群名
      */
     public function __construct($name = 'default')
