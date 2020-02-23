@@ -57,5 +57,8 @@ $client->send($markdown, new GroupChat());
 ## 相关
 * [钉钉开发文档：自定义机器人](https://open-doc.dingtalk.com/microapp/serverapi2/qf2nxq#-9)
 
+## 联系
+个人钉钉
+![qr](./my_dingtalk_qr.png)
 ## License
 [MIT license](LICENSE)
