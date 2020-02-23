@@ -61,7 +61,7 @@ $client->send($markdown, new GroupChat());
 
 #### 个人钉钉
 <p >
-<img src="https://raw.githubusercontent.com/baiyutang/dingtalk-chatbot/master/my_dintalk_qr.png" style="width: 240px;">
+<img src="https://raw.githubusercontent.com/baiyutang/dingtalk-chatbot/master/my_dintalk_qr.png">
 </p>
 
 ## License
