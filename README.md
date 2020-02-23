@@ -60,9 +60,7 @@ $client->send($markdown, new GroupChat());
 ## 联系
 
 #### 个人钉钉
-<p >
 <img src="https://raw.githubusercontent.com/baiyutang/dingtalk-chatbot/master/my_dintalk_qr.png">
-</p>
 
 ## License
 [MIT license](LICENSE)
