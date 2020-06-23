@@ -15,8 +15,8 @@
 > 3. 参照示例组装代码
 
 ## 配置钉钉群的两种方式
-* 修改 `Config.php` 文件中数组，配置 array('group_name'=>'...your token...')，然后 `$client = new ChatBot('group_name')`;
-* 支持直接指定token，当 `$client = new ChatBot('param')`，当构造函数接收到的参数不在 `Config.php` 的 `$groups` 数组种的键中，会被认定是一个 token
+* 修改 `Config.php` 文件中数组，配置 `array('group_name'=>'...your token...')`，然后 `$client = new ChatBot('group_name')`;
+* 支持直接指定token，当 `$client = new ChatBot('param')`，当构造函数接收到的参数不在 `Config.php` 的 `$groups` 数组的键中，会被认定是一个 token
 
 ## 示例
 ```php
