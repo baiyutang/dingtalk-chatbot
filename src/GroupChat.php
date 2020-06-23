@@ -31,10 +31,10 @@ class GroupChat
     }
 
     /**
-     * @param string $name
+     * @param string $param
      */
-    private function setToken($name)
+    private function setToken($param)
     {
-        $this->token = Config::$groups[$name];
+        $this->token = isset(Config::$groups[$param]) ? Config::$groups[$param] : $param;
     }
 }
